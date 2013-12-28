@@ -20,6 +20,8 @@ logo          logo(varchar/128)   logo
 下载地址      download(varchar)       下载地址
 下载次数      downcount(int)        下载次数
 安全检测      issafe(tinyint/1)     安全检测
+官网          website(varchar/36)   官网地址
+
 
 
 
