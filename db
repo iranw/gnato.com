@@ -18,9 +18,13 @@ logo          logo(varchar/128)   logo
 开发商        developers(varchar/36)  开发商
 简介          intro(text)             简介            副表
 下载地址      download(varchar)       下载地址
-下载次数      downcount(int)        下载次数
+下载次数      downnum(int)        下载次数
+点击数        clicknum(int)       点击数
+是否推荐      ishot(tinyint/1)    推荐等级(1-10)
 安全检测      issafe(tinyint/1)     安全检测
 官网          website(varchar/36)   官网地址
+是否审核      status(tinyint/1)     是否审核
+
 
 
 
