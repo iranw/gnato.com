@@ -1,1 +1,17 @@
 游戏&应用软件数据表设计
+
+名称          name(varchar/60)    游戏/应用名称
+别名          oname(varchar/60)   别名
+logo          logo(varchar/128)   logo
+截图s         imgs(varchar/255)   游戏截图
+版本          version(varchar/6)  版本
+发布时间      pubtime(int/10)     发布时间
+类型          cid(smallint/6)     类型(对应cate表cid)
+软件大小      filesize(varchar/12)         软件大小
+语言          lang(tinyint/1)     语言
+资费情况      money
+最低支持系统  minsys(tinyint/1)   最大支持系统
+开发商        developers(varchar/36)  开发商
+简介          intro(text)             简介
+下载地址      download(varchar)       下载地址
+
