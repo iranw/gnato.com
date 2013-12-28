@@ -3,15 +3,23 @@
 名称          name(varchar/60)    游戏/应用名称
 别名          oname(varchar/60)   别名
 logo          logo(varchar/128)   logo
+评分          Fraction(int)       评分1-100
 截图s         imgs(varchar/255)   游戏截图
 版本          version(varchar/6)  版本
 发布时间      pubtime(int/10)     发布时间
+更新时间      uptime(int/10)      更新时间
 类型          cid(smallint/6)     类型(对应cate表cid)
 软件大小      filesize(varchar/12)         软件大小
 语言          lang(tinyint/1)     语言
-资费情况      money
-最低支持系统  minsys(tinyint/1)   最大支持系统
+资费情况      isfree(tinyint/1)   是否免费
+价格简介      moneystr(varchar/36)  资费描述          
+支持系统      syslist(varchar/20)   最大支持系统
+支持屏幕      screenlist(varchar/20)    支持屏幕
 开发商        developers(varchar/36)  开发商
-简介          intro(text)             简介
+简介          intro(text)             简介            副表
 下载地址      download(varchar)       下载地址
+下载次数      downcount(int)        下载次数
+安全检测      issafe(tinyint/1)     安全检测
+
+
 
